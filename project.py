@@ -2,7 +2,7 @@ from netmiko import ConnectHandler
 
 username = 'ubuntu'
 #password = 'password'
-host='ec2-18-222-28-87.us-east-2.compute.amazonaws.com'
+host='ec2-3-14-66-188.us-east-2.compute.amazonaws.com'
 
 def Connect_to_server(username,host):
     Connected = False
